@@ -5,8 +5,8 @@ var currentUserGuid = null;
 var isModerator = false;
 var isAdmin = false;
 var currentUserGuid = null;
-var ALLOWED_HATS = ["tophat", "bfdi", "bieber", "evil", "elon", "kamala", "maga", "troll", "bucket", "obama", "dank", "witch", "wizard"];
-var BLESSED_HATS = ["crown", "halo", "golden", "tiara"];
+var ALLOWED_HATS = ["tophat", "bfdi", "bieber", "evil", "elon", "kamala", "maga", "troll", "bucket", "obama", "witch", "wizard"];
+var BLESSED_HATS = ["crown", "halo", "golden", "tiara", "dank"];
 var MODERATOR_HATS = ["admin", "mod", "owner", "invisible"];
 function markup(text) {
     // Handle all markdown formatting with single markers
